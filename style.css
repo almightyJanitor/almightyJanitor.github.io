@@ -1,0 +1,27 @@
+body {
+    color: #333333;
+    font-family: "Tinos", Times, serif;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+#wrapper {
+    margin: 12px;
+    padding: 0px;
+}
+
+#github {
+    margin: 0px;
+}
+
+#links {
+    display: table;
+}
+
+#links li {
+    list-style-type: none;
+    margin: 4px;
+}
