@@ -1,27 +1,89 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 body {
-    color: #333333;
-    font-family: "Tinos", Times, serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #3DA5B3;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#about {
+    padding: 10px;
+    background: #eeeeee;
+    border-bottom: 1px solid #777777;
+    font-size: 14px;
+}
+
+a {
+    color: #777777;
+}
+
+a:hover {
+    color: hotpink;
 }
 
 h1 {
-    font-size: 48px;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 30px;
     margin-bottom: 5px;
 }
 
-#wrapper {
-    margin: 12px;
-    padding: 0px;
+
+#projects {
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
 }
 
-#github {
-    margin: 0px;
+.divider {
+
 }
 
-ul {
-    display: table;
+#projects > a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    background: #eeeeee;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #777777;
+    text-align: left;
 }
 
-ul li {
-    list-style-type: none;
-    margin: 4px;
+#projects > a:hover {
+    background: #f8f8f8;
+}
+
+.project-title {
+    font-family: 'Space Mono', sans-serif;
+    color: black;
+    font-size: 36px;
 }
